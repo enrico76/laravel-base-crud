@@ -10644,3 +10644,128 @@ a.text-dark:focus {
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+
+header,
+footer {
+  background-color: orange;
+  text-align: center;
+}
+
+header h1,
+header h2,
+footer h1,
+footer h2 {
+  color: black;
+  padding: 15px 0;
+}
+
+.create_link,
+.back_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  margin: 10px 0;
+}
+
+.create_link a,
+.back_link a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 10px;
+  border: 2px solid orange;
+  background-color: lightyellow;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.post_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.post_list .post_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 370px;
+  height: auto;
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: #ffc8c8;
+  margin: 25px 0;
+  padding: 10px 0;
+}
+
+.post_list .post_items h3 {
+  text-transform: capitalize;
+}
+
+.post_list .post_items p {
+  width: 80%;
+  padding: 10px 0;
+}
+
+.post_list .post_items .update_link,
+.post_list .post_items .destroy_link {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 10px;
+  border: 2px solid orange;
+  background-color: lightyellow;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.post_list .post_items .update_link {
+  margin: 10px 0;
+}
+
+.create_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create_form .form_group {
+  margin: 15px 0;
+}
+
+.create_form .form_group label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.create_form .form_group input {
+  border-style: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.create_form button {
+  padding: 5px 10px;
+  margin: 15px 0;
+  border-style: none;
+  border-radius: 5px;
+  border: 2px solid red;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ffc8c8;
+  color: black;
+  cursor: pointer;
+}
+
