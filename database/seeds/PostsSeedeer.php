@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use App\Post;
 
-class PostsSedeer extends Seeder
+class PostsSeedeer extends Seeder
 {
     /**
      * Run the database seeds.
